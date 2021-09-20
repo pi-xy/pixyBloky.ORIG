@@ -4,5 +4,5 @@
     "description": "The first ever game for the Pixy platform",
     "gitUser": "pi-xy",
     "gitRepo": "pixyBloky",
-    "downloadURL": "https://github.com/pi-xy/pixyBloky/releases/download/v0.1/pixyBloky-v0.1.zip
+    "downloadURL": "https://github.com/pi-xy/pixyBloky/archive/refs/tags/v0.1.zip"
 }
