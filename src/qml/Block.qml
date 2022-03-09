@@ -7,7 +7,7 @@ Item {
         height: 36 * 3
   
         x: parent.width / 2.0 - 72
-        y: -(72 * 1.25)
+        y: 0
        
         property var matrixOriginX: 180
         property var matrixOriginY: 0

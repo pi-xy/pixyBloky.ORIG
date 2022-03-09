@@ -116,6 +116,19 @@ PixyStage {
         horizontalAlignment: Text.AlignHCenter
     }
 
+    Text {
+        id: debug
+        z: 256
+        font.family: fontMedium.name
+        visible: true
+        text: "DEBUG"
+        color: "#ffffff"
+        font.pointSize: 16
+        x: 0
+        y: 0
+        width: 720
+    }
+
     function level() {
         return level
     }
@@ -255,6 +268,8 @@ PixyStage {
         property var tick: 0
         property var freq: 60
         onTriggered: {
+
+            debug.text = block.y
 
             ticker.tick = ticker.tick + 1
 
